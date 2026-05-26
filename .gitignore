@@ -64,3 +64,4 @@ build/
 hs_err_pid*
 replay_pid*
 
+echo "src/main/resources/application-local.properties" >> .gitignore
