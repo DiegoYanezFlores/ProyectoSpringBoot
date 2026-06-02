@@ -1,4 +1,4 @@
-package org.example.service;
+package org.example.service.implementation;
 
 import org.example.entity.DetallePedido;
 import org.example.entity.Pedido;
@@ -6,6 +6,7 @@ import org.example.entity.Producto;
 import org.example.repository.ClienteRepository;
 import org.example.repository.PedidoRepository;
 import org.example.repository.ProductoRepository;
+import org.example.service.interfaces.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

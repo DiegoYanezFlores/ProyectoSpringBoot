@@ -1,7 +1,8 @@
-package org.example.service;
+package org.example.service.implementation;
 
 import org.example.entity.Categoria;
 import org.example.repository.CategoriaRepository;
+import org.example.service.interfaces.CategoriaService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

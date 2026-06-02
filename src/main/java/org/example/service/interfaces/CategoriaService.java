@@ -1,10 +1,11 @@
-package org.example.service;
+package org.example.service.interfaces;
 
 import org.example.entity.Categoria;
 
 import java.util.List;
 
-public interface CategoriaService {
+public interface CategoriaService
+        extends BaseService<Categoria, Long> {
 
     List<Categoria> listar();
 
@@ -13,4 +14,5 @@ public interface CategoriaService {
     Categoria guardar(Categoria categoria);
 
     void eliminar(Long id);
+
 }

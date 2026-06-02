@@ -1,7 +1,7 @@
 package org.example.controller;
 
 import org.example.entity.Categoria;
-import org.example.service.CategoriaService;
+import org.example.service.interfaces.CategoriaService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

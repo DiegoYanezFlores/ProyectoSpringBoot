@@ -1,7 +1,7 @@
 package org.example.controller;
 
 import org.example.entity.Producto;
-import org.example.service.ProductoService;
+import org.example.service.interfaces.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

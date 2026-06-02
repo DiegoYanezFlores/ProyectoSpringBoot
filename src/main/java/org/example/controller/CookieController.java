@@ -25,8 +25,6 @@ public  class CookieController {
             // Definimos que sea accesible desde cualquier ruta de la app
             cookieUsuario.setPath("/");
 
-
-
             // Se la enviamos al navegador del cliente
             response.addCookie(cookieUsuario);
 
