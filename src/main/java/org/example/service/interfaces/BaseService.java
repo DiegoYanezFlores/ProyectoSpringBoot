@@ -3,10 +3,10 @@ package org.example.service.interfaces;
 import java.util.List;
 
 /**
- * Contrato base para todos los servicios.
+ * Contrato genérico para todos los servicios.
  *
- * @param <T> Entidad
- * @param <ID> Tipo del identificador
+ * @param <T> Tipo de entidad.
+ * @param <ID> Tipo del identificador.
  */
 public interface BaseService<T, ID> {
 

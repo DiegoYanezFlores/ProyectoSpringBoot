@@ -12,7 +12,9 @@ public class CategoriaServiceImpl implements CategoriaService {
 
     private final CategoriaRepository categoriaRepository;
 
-    public CategoriaServiceImpl(CategoriaRepository categoriaRepository) {
+    public CategoriaServiceImpl(
+            CategoriaRepository categoriaRepository) {
+
         this.categoriaRepository = categoriaRepository;
     }
 
@@ -23,7 +25,8 @@ public class CategoriaServiceImpl implements CategoriaService {
 
     @Override
     public Categoria obtener(Long id) {
-        return categoriaRepository.findById(id).orElse(null);
+        return categoriaRepository.findById(id)
+                .orElse(null);
     }
 
     @Override
